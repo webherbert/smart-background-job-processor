@@ -1,0 +1,26 @@
+{
+  "name": "smart-background-job-processor",
+  "version": "1.2.1",
+  "description": "A utility library for managing background jobs in Node.js applications using Bull and Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webherbert/smart-background-job-processor"
+  },
+  "keywords": [
+    "background",
+    "job",
+    "processor",
+    "bull",
+    "redis"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.13.0",
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2"
+  }
+}
